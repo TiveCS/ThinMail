@@ -27,5 +27,9 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+        
+    - name: Java Maven release
+      uses: qcastel/github-actions-maven-release@v1.12.31
+
     - name: Build with Maven
       run: mvn -B package --file pom.xml
