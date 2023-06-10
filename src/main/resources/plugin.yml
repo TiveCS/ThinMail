@@ -1,0 +1,7 @@
+  name: ThinMail
+  main: io.github.tivecs.thinmail.ThinMail
+  version: '${project.version}'
+  api-version: 1.19
+  commands:
+    thinmail:
+      aliases: [mail, tm, tmail]

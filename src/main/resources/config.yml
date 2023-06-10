@@ -1,0 +1,10 @@
+database:
+  type: 'sqlite' # sqlite or mysql
+  sqlite:
+    path: 'data/thin_mail.sqlite'
+  mysql:
+    host: 'localhost'
+    port: 3306
+    database: 'thin_mail'
+    username: 'root'
+    password: ''
