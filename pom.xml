@@ -6,7 +6,7 @@
 
     <groupId>io.github.tivecs</groupId>
     <artifactId>thin-mail</artifactId>
-    <version>0.0.14-alpha</version>
+    <version>0.0.15-alpha</version>
     <packaging>jar</packaging>
 
     <properties>
